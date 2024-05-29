@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.containerList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px auto;
+
+    width: 95%;
+    max-width: 900px;
+}
+
+.containerList li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 162px;
+    height: 357px;
+}
+
+.containerList img {
+    width: 100%;
+}
+
+.productName {
+    color: var(--Color-grey-1);
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.containerList div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.price {
+    color: var(--Color-grey-1);
+
+    font-weight: 700;
+    font-size: 16px;
+}
+.payInstallment {
+    color: var(--Color-grey-3);
+
+    font-size: 16px;
+}
+
+.containerList button {
+    color: #ffffff;
+
+    background-color: var(--Color-grey-1);
+
+    font-weight: 700;
+    font-size: 14px;
+
+    height: 33px;
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.buttonHandleMore {
+    margin: 0 auto ;
+    color: #ffffff;
+
+    background-color: var(--Color-primary);
+
+    height: 35px;
+    width: 175px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+@media (min-width: 545px) {
+    .containerList {
+        gap: 64px;
+    }
+    .containerList li {
+        width: 195px;
+        height: 424px;
+    }
+}

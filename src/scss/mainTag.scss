@@ -1,0 +1,52 @@
+.main {
+    width: 100%;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    padding-top: 60px;
+
+    /* position: relative; */
+}
+
+.title {
+    font-size: 32px;
+
+    color: #333333;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.teste {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.styleButtons {
+    /* height: 49px; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styleButtons button{
+    /* min-width: 150px; */
+    width: 170px;
+
+    height: 49px;
+
+    /* height: 100%; */
+
+    font-size: 24px;
+
+    color: var(--Color-grey-3);
+
+    background-color: white;
+    border: var(--Color-grey-3) solid 1px;
+
+    cursor: pointer;
+}

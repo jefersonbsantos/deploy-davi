@@ -1,0 +1,23 @@
+@import "reset";
+@import "header";
+@import "mainTag";
+@import "listItems";
+@import "modalOrder";
+@import "footer";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --Color-primary: #fb953e;
+  --Color-grey-1: #000000;
+  --Color-grey-2: #00000080;
+  --Color-grey-3: #666666;
+}
+
+body {
+  /* padding-top: 200px; */
+  /* width: 100vw; */
+  height: 100vh;
+
+  /* background-color: #000000; */
+  font-family: "Open Sans", sans-serif;
+}

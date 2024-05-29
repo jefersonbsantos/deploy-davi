@@ -1,0 +1,49 @@
+.modal {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+    height: 100%;
+    width: 100%;
+
+    background-color: #ffffff;
+
+    overflow: hidden;
+}
+
+.headerModal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 54px;
+    
+    padding: 0 15px 0 15px;
+    font-size: 26px;
+    
+    color: var(--Color-grey-3);
+
+    border-bottom: 2px solid #c7c7c7;
+}
+
+.headerModal img {
+    cursor: pointer;
+}
+
+.divbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+
+    padding: 30px 15px 0 15px;
+
+    gap: 30px;
+}
+
+.divbuttons button{
+    background-color: #ffffff;
+
+    font-size: 22px;
+
+    cursor: pointer;
+}   
